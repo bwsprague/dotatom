@@ -1,0 +1,40 @@
+"*":
+  "exception-reporting":
+    userId: "ca5f2cde-3311-a3a6-c360-60457166b850"
+  welcome:
+    showOnStartup: false
+  minimap: {}
+  core:
+    themes: [
+      "one-dark-ui"
+      "one-light-syntax"
+    ]
+    disabledPackages: [
+      "typewriter"
+    ]
+  "one-dark-ui": {}
+  "autocomplete-bibtex":
+    bibtex: [
+      "/Users/bwsprague/Documents/bwsbibteklib.bib"
+    ]
+  "autocomplete-python": {}
+  editor:
+    invisibles: {}
+    showInvisibles: true
+  Zen:
+    softWrap: true
+    typewriter: true
+    minimap: true
+    fullscreen: false
+  "markdown-preview-plus": {}
+".gfm.source":
+  editor:
+    softWrap: true
+    showInvisibles: false
+    scrollPastEnd: true
+    showIndentGuide: false
+    softWrapAtPreferredLineLength: true
+"source.gfm":
+  editor:
+    softWrap: true
+    fontFamily: "serif"

@@ -1,0 +1,13 @@
+Zen@0.16.2
+autocomplete-bibtex@0.6.1
+autocomplete-python@0.5.3
+language-pfm@0.81.0
+markdown-preview-plus@2.0.1
+mathjax-wrapper@0.1.0
+minimap@4.13.2
+pane-layout-plus@0.7.3
+pane-move-plus@0.3.1
+pane-split-moves-tab@0.0.2
+pen-paper-coffee-syntax@0.9.1
+typewriter@0.3.4
+
