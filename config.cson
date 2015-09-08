@@ -24,7 +24,6 @@
     showInvisibles: true
   Zen:
     softWrap: true
-    typewriter: true
     minimap: true
     fullscreen: false
   "markdown-preview-plus":
