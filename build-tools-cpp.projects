@@ -1,0 +1,90 @@
+{
+  "/Users/bwsprague/GradSchool/Research/NaturalBlurStats/Manuscript/UMarkdown-draft": {
+    "path": "/Users/bwsprague/GradSchool/Research/NaturalBlurStats/Manuscript/UMarkdown-draft",
+    "key": {
+      "make": null,
+      "configure": null,
+      "preconfigure": null
+    },
+    "commands": [
+      {
+        "project": "/Users/bwsprague/GradSchool/Research/NaturalBlurStats/Manuscript/UMarkdown-draft",
+        "name": "Doc parse",
+        "command": "pandoc -o manuscript.docx --filter pandoc-citeproc --bibliography=\"/Users/bwsprague/Documents/library.bib\" --csl=\"/Users/bwsprague/Documents/journal-of-vision.csl\" index.md",
+        "wd": ".",
+        "shell": false,
+        "wildcards": false,
+        "save_all": true,
+        "close_success": false,
+        "stdout": {
+          "file": true,
+          "highlighting": "nh",
+          "lint": false
+        },
+        "stderr": {
+          "file": true,
+          "highlighting": "nh",
+          "lint": false
+        },
+        "targetOf": [],
+        "version": 2
+      }
+    ],
+    "dependencies": []
+  },
+  "/Users/bwsprague/GradSchool/Research/NaturalBlurStats/Manuscript": {
+    "path": "/Users/bwsprague/GradSchool/Research/NaturalBlurStats/Manuscript",
+    "key": {
+      "make": null,
+      "configure": null,
+      "preconfigure": null
+    },
+    "commands": [
+      {
+        "project": "/Users/bwsprague/GradSchool/Research/NaturalBlurStats/Manuscript",
+        "name": "Generate Docx",
+        "command": "pandoc -o manuscript.docx --filter pandoc-citeproc --bibliography=\"/Users/bwsprague/Documents/library.bib\" --csl=\"/Users/bwsprague/Documents/CSL/journal-of-vision.csl\" manuscript.md",
+        "wd": ".",
+        "shell": false,
+        "wildcards": false,
+        "save_all": true,
+        "close_success": true,
+        "stdout": {
+          "file": true,
+          "highlighting": "nh",
+          "lint": false
+        },
+        "stderr": {
+          "file": true,
+          "highlighting": "nh",
+          "lint": false
+        },
+        "targetOf": [],
+        "version": 2
+      },
+      {
+        "project": "/Users/bwsprague/GradSchool/Research/NaturalBlurStats/Manuscript",
+        "name": "View docx",
+        "command": "open manuscript.docx",
+        "wd": ".",
+        "shell": false,
+        "wildcards": false,
+        "save_all": true,
+        "close_success": true,
+        "stdout": {
+          "file": true,
+          "highlighting": "nh",
+          "lint": false
+        },
+        "stderr": {
+          "file": true,
+          "highlighting": "nh",
+          "lint": false
+        },
+        "targetOf": [],
+        "version": 2
+      }
+    ],
+    "dependencies": []
+  }
+}

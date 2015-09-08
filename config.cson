@@ -11,11 +11,12 @@
     ]
     disabledPackages: [
       "typewriter"
+      "markdown-preview"
     ]
   "one-dark-ui": {}
   "autocomplete-bibtex":
     bibtex: [
-      "/Users/bwsprague/Documents/bwsbibteklib.bib"
+      "/Users/bwsprague/Documents/library.bib"
     ]
   "autocomplete-python": {}
   editor:
@@ -26,7 +27,15 @@
     typewriter: true
     minimap: true
     fullscreen: false
-  "markdown-preview-plus": {}
+  "markdown-preview-plus":
+    enableLatexRenderingByDefault: true
+    pandocPath: "/usr/local/bin/pandoc"
+    pandocBIBFile: "~/Documents/library.bib"
+    pandocCSLFile: "~/Documents/journal-of-vision.csl"
+    useLazyHeaders: false
+    enablePandoc: true
+    useGitHubStyle: true
+  "build-tools": {}
 ".gfm.source":
   editor:
     softWrap: true
