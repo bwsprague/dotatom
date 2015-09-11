@@ -43,7 +43,7 @@
       {
         "project": "/Users/bwsprague/GradSchool/Research/NaturalBlurStats/Manuscript",
         "name": "Generate Docx",
-        "command": "pandoc -o manuscript.docx --filter pandoc-citeproc --bibliography=\"/Users/bwsprague/Documents/library.bib\" --csl=\"/Users/bwsprague/Documents/CSL/journal-of-vision.csl\" manuscript.md",
+        "command": "pandoc -o manuscript.docx --filter pandoc-citeproc --bibliography=\"/Users/bwsprague/Documents/library.bib\" --csl=\"/Users/bwsprague/Documents/CSL/apa-no-doi-no-issue.csl\" manuscript.md",
         "wd": ".",
         "shell": false,
         "wildcards": false,
